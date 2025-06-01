@@ -1,0 +1,63 @@
+
+body {
+    background-color: #ebdfcc;
+    margin: 20px;
+    padding: 20px;
+}
+header {
+    margin: 0,5cm;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #d9dcbd, #c1c4a6, #a9ac8e, #909377, #787b5f );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.título01 {
+    color: #810E0B;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+main {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+nav a {
+    color: #810E0B;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+    background-color: #787b5f;
+}
+section {
+    display: flex;
+    flex-direction:row;
+    gap: 1cm;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article {
+    border: 1px solid;
+    padding: 0,9cm;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.at {
+    text-decoration: none;
+    col
+}
+.at :hover {
+    color: white;
+    background-color: #787b5f;
+    font-family: 'Times New Roman', Times, serif;
+}
